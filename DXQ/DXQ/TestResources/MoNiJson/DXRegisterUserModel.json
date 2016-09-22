@@ -1,0 +1,15 @@
+{
+    "code": 0,
+    "data": {
+        "Id": 19,
+        "LUSR": "ZHUHAI",
+        "LTIME": "2015-08-10T10:20:14.641370035+08:00",
+        "LPSW": "123456",
+        "LSTATUS": 0,
+        "LIDENTIFY": "normal",
+        "LSOCIALTYPE": "",
+        "ADD1": "",
+        "ADD2": ""
+    },
+    "msg": ""
+}

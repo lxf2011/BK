@@ -1,0 +1,30 @@
+{
+    "code": 0,
+    "data": {
+        "Id": 17,
+        "LUSR": "dxq",
+        "LTIME": "2015-08-06T20:22:57+08:00",
+        "LPSW": "e10adc3949ba59abbe56e057f20f883e",
+        "LSTATUS": 0,
+        "LIDENTIFY": "normal",
+        "LSOCIALTYPE": "",
+        "ADD1": "",
+        "ADD2": "",
+        "ATTR": [
+                 {
+                 "Id": 168,
+                 "LKEY": "head",
+                 "LTYPE": "S",
+                 "LIVALUE": 0,
+                 "LFVALUE": 0,
+                 "LSVALUE": "",
+                 "LOTYPE": "L_USR",
+                 "LOID": 17,
+                 "LTIME": "2015-08-06T12:32:02+08:00",
+                 "ADD1": "",
+                 "ADD2": ""
+                 }
+                 ]
+    },
+    "msg": ""
+}

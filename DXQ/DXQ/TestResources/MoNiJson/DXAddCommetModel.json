@@ -1,0 +1,17 @@
+{
+    "code": 0,
+    "data": {
+        "Id": 18,
+        "LOWNER": 17,
+        "LTARGET": 0,
+        "LTARGETTYPE": "L_MESSAGE",
+        "LCONTENT": "你好",
+        "LTIME": "2015-08-10T10:29:52.948260763+08:00",
+        "LREPLY": 0,
+        "LTYPE": 0,
+        "LPRAISE": 0,
+        "ADD1": "",
+        "ADD2": ""
+    },
+    "msg": ""
+}

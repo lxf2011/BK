@@ -1,0 +1,54 @@
+{
+    "code": 0,
+    "data": [
+             {
+             "OrgInfo": {
+             "Id": 19,
+             "LTARID": 25,
+             "LOID": {
+             "Id": 17,
+             "LORGNAME": "广州大学舞蹈协会",
+             "LICON": "/download/04983a0c8f92432758c5fc413d4ffaf9.jpg",
+             "LPIC": "",
+             "LINTRO": "广州大学舞蹈协会",
+             "LCONTENT": " ",
+             "LCHARGE": "罗理想",
+             "LORGNUM": "1238388672@qq.com",
+             "LATTENTION": 0,
+             "LPHONE": "18620860847",
+             "LEMAIL": "1238388672@qq.com",
+             "LSCHOOL": "广州大学",
+             "LCOLLEGE": "",
+             "LPRAISE": 0,
+             "LCLICK": 0,
+             "LCOLLECT": 0,
+             "LSTATUS": 0,
+             "ADD1": "",
+             "ADD2": ""
+             },
+             "LTYPE": "ORG_MSG",
+             "LSTATUS": 0,
+             "LTIME": "2015-08-04T03:08:08Z",
+             "ADD1": "",
+             "ADD2": ""
+             },
+             "Msg": {
+             "Id": 25,
+             "LTITLE": "农村淫秽演出：丈夫主持 妻子跳脱衣舞 脱得只剩内裤",
+             "LUID": 1,
+             "LINTRO": "日晚，铜山文化行政执法大队在巡查时发现，在汉王镇一户办喜事的人家中，有人在跳艳舞，于是向当地派出所报警。随即赶来的民警将3人控制住，并以淫秽表演",
+             "LPIC": "/download/4745fbce23bb693d7b5b64d184a0bac0.jpg",
+             "LTYPE": 1,
+             "LSTATUS": 0,
+             "LPRAISE": 0,
+             "LCLICK": 4,
+             "LCOLLECT": 0,
+             "LTIME": "2015-08-06T10:04:50Z",
+             "ADD1": "",
+             "ADD2": ""
+             },
+             "Act": null
+             }
+             ],
+    "msg": ""
+}

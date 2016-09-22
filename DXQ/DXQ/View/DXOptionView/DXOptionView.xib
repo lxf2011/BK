@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DXOptionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="owN-dR-CoT">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ekx-il-agN">
+                    <rect key="frame" x="80" y="0.0" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="ic_-36">
+                        <color key="titleColor" red="0.9882352941176471" green="0.15686274509803921" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="comment:" destination="iN0-l3-epB" eventType="touchUpInside" id="u7Y-7X-UxI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNA-Be-Qwy">
+                    <rect key="frame" x="160" y="0.0" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="ic_-37">
+                        <color key="titleColor" red="0.9882352941176471" green="0.15686274509803921" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="share:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wmi-0O-ldd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNQ-ej-q1H">
+                    <rect key="frame" x="240" y="0.0" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="大学圈UIv1.0-48">
+                        <color key="titleColor" red="0.9882352941176471" green="0.15686274509803921" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="like:" destination="iN0-l3-epB" eventType="touchUpInside" id="bNm-3j-UPM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4p-cC-wJX">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="ic_pressed-35">
+                        <color key="titleColor" red="0.9882352941176471" green="0.15686274509803921" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled" image="ic_pressed-35"/>
+                    <connections>
+                        <action selector="collect:" destination="iN0-l3-epB" eventType="touchUpInside" id="eGa-uP-jfh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wNQ-ej-q1H" firstAttribute="leading" secondItem="bNA-Be-Qwy" secondAttribute="trailing" id="3L0-pr-p7A"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="width" secondItem="e4p-cC-wJX" secondAttribute="width" id="4kh-bx-Uxh"/>
+                <constraint firstAttribute="bottom" secondItem="Ekx-il-agN" secondAttribute="bottom" id="62b-yX-lLf"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="height" secondItem="bNA-Be-Qwy" secondAttribute="height" id="Dno-Re-UeJ"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HD2-fJ-gpa"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="height" secondItem="wNQ-ej-q1H" secondAttribute="height" id="HxR-Vl-CCh"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="leading" secondItem="e4p-cC-wJX" secondAttribute="trailing" id="N0f-A2-maU"/>
+                <constraint firstAttribute="bottom" secondItem="wNQ-ej-q1H" secondAttribute="bottom" id="aHN-C5-b6J"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="width" secondItem="bNA-Be-Qwy" secondAttribute="width" id="cS1-By-Okg"/>
+                <constraint firstAttribute="bottom" secondItem="bNA-Be-Qwy" secondAttribute="bottom" id="dNb-wl-Q6o"/>
+                <constraint firstItem="wNQ-ej-q1H" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eyd-ZN-6B3"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="height" secondItem="e4p-cC-wJX" secondAttribute="height" id="gsp-qQ-hTf"/>
+                <constraint firstItem="Ekx-il-agN" firstAttribute="width" secondItem="wNQ-ej-q1H" secondAttribute="width" id="kuo-J2-I0G"/>
+                <constraint firstItem="bNA-Be-Qwy" firstAttribute="leading" secondItem="Ekx-il-agN" secondAttribute="trailing" id="mJX-vX-5XF"/>
+                <constraint firstAttribute="trailing" secondItem="wNQ-ej-q1H" secondAttribute="trailing" id="tLT-kd-As6"/>
+                <constraint firstItem="e4p-cC-wJX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tSy-QY-2wv"/>
+                <constraint firstAttribute="bottom" secondItem="e4p-cC-wJX" secondAttribute="bottom" id="tst-rc-kGL"/>
+                <constraint firstItem="e4p-cC-wJX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uer-Hr-TuN"/>
+                <constraint firstItem="bNA-Be-Qwy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vAu-VJ-Eaa"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonCollect" destination="e4p-cC-wJX" id="opQ-uB-SEB"/>
+                <outlet property="buttonCommet" destination="Ekx-il-agN" id="maq-lt-2wC"/>
+                <outlet property="buttonLike" destination="wNQ-ej-q1H" id="0IW-Fz-0gh"/>
+                <outlet property="buttonShare" destination="bNA-Be-Qwy" id="Wuk-Ic-Uig"/>
+                <outlet property="viewBackground" destination="owN-dR-CoT" id="2MQ-QP-Y96"/>
+            </connections>
+            <point key="canvasLocation" x="247" y="220"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_-36" width="17" height="16"/>
+        <image name="ic_-37" width="17" height="16"/>
+        <image name="ic_pressed-35" width="17" height="16"/>
+        <image name="大学圈UIv1.0-48" width="17" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,36 @@
+{
+    "code": 0,
+    "data": [
+             {
+             "ADD1": "",
+             "ADD2": "",
+             "L_CONTENT": "复合机",
+             "L_ID": "2",
+             "L_OWNER": "1",
+             "L_PRAISE": "0",
+             "L_REPLY": "0",
+             "L_TARGET": "8",
+             "L_TARGET_TYPE": "L_MESSAGE",
+             "L_TIME": "2015-08-04 04:27:28",
+             "L_TYPE": "0",
+             "L_USR": "admin",
+             "NICK_NAME": null
+             },
+             {
+             "ADD1": "",
+             "ADD2": "",
+             "L_CONTENT": "帮你",
+             "L_ID": "1",
+             "L_OWNER": "1",
+             "L_PRAISE": "0",
+             "L_REPLY": "0",
+             "L_TARGET": "8",
+             "L_TARGET_TYPE": "L_MESSAGE",
+             "L_TIME": "2015-08-04 04:26:57",
+             "L_TYPE": "0",
+             "L_USR": "admin",
+             "NICK_NAME": null
+             }
+             ],
+    "msg": ""
+}

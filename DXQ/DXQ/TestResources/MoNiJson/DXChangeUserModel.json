@@ -1,0 +1,17 @@
+{
+    "code": 0,
+    "data": {
+        "Id": 169,
+        "LKEY": "head",
+        "LTYPE": "S",
+        "LIVALUE": 0,
+        "LFVALUE": 0,
+        "LSVALUE": "",
+        "LOTYPE": "LUSER",
+        "LOID": 17,
+        "LTIME": "2015-08-10T10:27:11.738698716+08:00",
+        "ADD1": "",
+        "ADD2": ""
+    },
+    "msg": ""
+}

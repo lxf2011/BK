@@ -1,0 +1,16 @@
+{
+    "code": 0,
+    "data": {
+        "Id": 0,
+        "LUSR": "dxq",
+        "LTIME": "0001-01-01T00:00:00Z",
+        "LPSW": "123456",
+        "LSTATUS": 0,
+        "LIDENTIFY": "",
+        "LSOCIALTYPE": "",
+        "ADD1": "",
+        "ADD2": "",
+        "ATTR": null
+    },
+    "msg": ""
+}

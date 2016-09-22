@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrgDetailViewController">
+            <connections>
+                <outlet property="buttonPraise" destination="Yw8-v8-v24" id="xly-bY-dzq"/>
+                <outlet property="tableView" destination="nkr-wB-xhe" id="mPV-FQ-wEP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="KjZ-oS-F5N" id="yD7-hG-dQC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KjZ-oS-F5N">
+                    <rect key="frame" x="0.0" y="94" width="320" height="474"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yw8-v8-v24">
+                    <rect key="frame" x="246" y="494" width="66" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="SeV-FT-ACR"/>
+                        <constraint firstAttribute="width" constant="66" id="axs-CZ-av4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" backgroundImage="ic-35">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="ic-34">
+                        <color key="titleColor" red="1" green="0.47188440440000001" blue="0.52259907289999996" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="praise:" destination="-1" eventType="touchUpInside" id="8HO-XX-TOE"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="nkr-wB-xhe">
+                    <rect key="frame" x="0.0" y="94" width="320" height="474"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="IjG-9b-FPL"/>
+                        <outlet property="delegate" destination="-1" id="9dB-hn-wta"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Yw8-v8-v24" secondAttribute="bottom" id="0Ak-hX-aXN"/>
+                <constraint firstItem="nkr-wB-xhe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="94" id="8Dn-OH-Qu7"/>
+                <constraint firstItem="KjZ-oS-F5N" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EHe-Dk-cN6"/>
+                <constraint firstAttribute="trailing" secondItem="nkr-wB-xhe" secondAttribute="trailing" id="GDh-CJ-zVp"/>
+                <constraint firstAttribute="bottom" secondItem="nkr-wB-xhe" secondAttribute="bottom" id="TKx-rS-Vj2"/>
+                <constraint firstAttribute="bottom" secondItem="KjZ-oS-F5N" secondAttribute="bottom" id="Tac-VL-f10"/>
+                <constraint firstItem="Yw8-v8-v24" firstAttribute="top" secondItem="KjZ-oS-F5N" secondAttribute="bottom" constant="1" id="V9i-rf-M8h"/>
+                <constraint firstItem="KjZ-oS-F5N" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="94" id="dUg-2f-hfU"/>
+                <constraint firstAttribute="trailing" secondItem="Yw8-v8-v24" secondAttribute="trailing" constant="10" id="lLD-wb-2Rt"/>
+                <constraint firstAttribute="trailing" secondItem="KjZ-oS-F5N" secondAttribute="trailing" id="pBl-7i-nzC"/>
+                <constraint firstItem="nkr-wB-xhe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pu9-FM-d6q"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="V9i-rf-M8h"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="224" y="187"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic-34" width="62" height="62"/>
+        <image name="ic-35" width="62" height="62"/>
+    </resources>
+</document>
